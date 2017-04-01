@@ -6,11 +6,13 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 
 import { BookComponent } from './book.component';
+import { ShowBookComponent } from './show-book.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    BookComponent
+    BookComponent,
+    ShowBookComponent
   ],
   imports: [
     BrowserModule,
