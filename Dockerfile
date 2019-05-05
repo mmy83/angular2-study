@@ -11,4 +11,4 @@ RUN npm config set registry https://registry.npm.taobao.org \
 
 COPY . .
 
-RUN ng build --prod
+#RUN ng build --prod
